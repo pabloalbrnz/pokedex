@@ -1,0 +1,56 @@
+.browse-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10rem;
+}
+
+.browse-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.5rem;
+
+  padding: 0.25rem;
+
+  width: 75%;
+
+  border-radius: 1rem;
+
+  background: rgba(var(--black));
+  color: rgba(var(--white));
+
+  font-size: 1.5rem;
+}
+
+.browse-wrapper:focus-within {
+  outline: 0.25rem solid rgba(var(--yellow-500));
+
+  box-shadow: 0 2px 8px 4px rgba(var(--blue-800), 0.5);
+}
+
+.browse-wrapper svg {
+  transform: rotate(180deg);
+}
+
+.browse-input {
+  width: 87.25%;
+  height: 4rem;
+
+  background: none;
+  color: rgba(var(--white));
+
+  border: none;
+
+  font-size: 1.75rem;
+}
+
+.browse-input:focus {
+  outline: none;
+}
+
+.browse-input::placeholder {
+  color: rgba(var(--white), 0.5);
+}
